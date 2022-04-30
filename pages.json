@@ -1,0 +1,125 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+	    {
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "ShoppingTown",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+            "path" : "pages/member/member",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "ShoppingTown",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "ShoppingTown咨询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": false,
+				"enablePullDownRefresh":true
+            }
+            
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "ShoppingTown",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "社区图片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/videos/videos",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news-detail/news-detail",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "ShoppingTownNews",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "ShoppingTown",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle":"black",
+		"navigationBarTitleText": "ShoppingTown",
+		"navigationBarBackgroundColor":"#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"selectedColor":"#6FDCC5",
+		"fontSize":"5px",
+		"list":[
+			{
+				// "text":"首页",
+				"iconPath":"static/shopicon/iconhuidaoshouye-2.png",
+				"pagePath":"pages/index/index",
+				"selectedIconPath":"static/shopicon/iconhuidaoshouye.png"
+			},
+			{
+				// "text":"咨询",
+				"iconPath":"static/shopicon/shouqi-01-2.png",
+				"pagePath":"pages/news/news",
+				"selectedIconPath":"static/shopicon/shouqi-01.png"
+			},
+			{
+				// "text":"购物车",
+				"iconPath":"static/shopicon/gouwuche.png",
+				"pagePath":"pages/cart/cart",
+				"selectedIconPath":"static/shopicon/gouwuche-01.png"
+			},
+			{
+				// "text":"会员",
+				"iconPath":"static/shopicon/icongerenzhongxin-01-N.png",
+				"pagePath":"pages/member/member",
+				"selectedIconPath":"static/shopicon/icongerenzhongxin-01.png"
+			}
+		]
+	}
+}

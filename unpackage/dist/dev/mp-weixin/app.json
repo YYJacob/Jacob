@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/member/member",
+    "pages/news/news",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/videos/videos",
+    "pages/news-detail/news-detail",
+    "pages/goods-detail/goods-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "ShoppingTown",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "selectedColor": "#6FDCC5",
+    "fontSize": "5px",
+    "list": [
+      {
+        "iconPath": "static/shopicon/iconhuidaoshouye-2.png",
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "static/shopicon/iconhuidaoshouye.png"
+      },
+      {
+        "iconPath": "static/shopicon/shouqi-01-2.png",
+        "pagePath": "pages/news/news",
+        "selectedIconPath": "static/shopicon/shouqi-01.png"
+      },
+      {
+        "iconPath": "static/shopicon/gouwuche.png",
+        "pagePath": "pages/cart/cart",
+        "selectedIconPath": "static/shopicon/gouwuche-01.png"
+      },
+      {
+        "iconPath": "static/shopicon/icongerenzhongxin-01-N.png",
+        "pagePath": "pages/member/member",
+        "selectedIconPath": "static/shopicon/icongerenzhongxin-01.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
